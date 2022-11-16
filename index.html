@@ -12,10 +12,79 @@
     />
     <!-- Tailwind core CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./public/style.css">
   </head>
 
-  <body>
-    <h1>Tailwind Cards Challenge</h1><br>
-    <p>Check the README for instructions.</p>
+  <body class="bg-gray-100 font-body">
+    <div class="flex flex-wrap justify-center">
+      <div class="columns-1 md:columns-2 lg:columns-3 my-6 mx-3 ">
+
+        <div class=" max-w-md rounded overflow-hidden w-full bg-white shadow-sm hover:shadow-2xl">
+          <img src="https://picsum.photos/500/300?v=1"  />
+          <div class="px-6 py-4">
+            <p class="line-clamp-2">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel
+              facere neque est perferendis cum enim ipsam recusandae voluptas
+              reprehenderit nisi incidunt, praesentium beatae a earum minima
+              illum tenetur rem perspiciatis.
+            </p>
+            <div class="columns-2 py-3">
+              <p class="py-1 text-gray-500">
+                <small class="">7 mins</small>
+              </p>
+              <button
+                class="btn-primary"
+              >
+                Read more
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="max-w-md my-6 rounded overflow-hidden bg-white shadow-sm hover:shadow-2xl">
+          <img src="https://picsum.photos/500/300?v=2" alt="" />
+          <div class="px-6 py-4">
+            <p class="line-clamp-2">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel
+              facere neque est perferendis cum enim ipsam recusandae voluptas
+              reprehenderit nisi incidunt, praesentium beatae a earum minima
+              illum tenetur rem perspiciatis.
+            </p>
+            <div class="columns-2 py-3">
+              <p class="py-1 text-gray-500">
+                <small class="">3 mins</small>
+              </p>
+              <button
+                class="btn-primary"
+              >
+                Read more
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="my-6 max-w-md rounded overflow-hidden bg-white shadow-sm hover:shadow-2xl">
+          <img src="https://picsum.photos/500/300?v=3" alt="" />
+          <div class="px-6 py-4">
+            <p class="line-clamp-2">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel
+              facere neque est perferendis cum enim ipsam recusandae voluptas
+              reprehenderit nisi incidunt, praesentium beatae a earum minima
+              illum tenetur rem perspiciatis.
+            </p>
+            <div class="columns-2 py-3">
+              <p class="py-1 text-gray-500">
+                <small class="">17 mins</small>
+              </p>
+              <button
+                class="btn-primary"
+              >
+                Read more
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
